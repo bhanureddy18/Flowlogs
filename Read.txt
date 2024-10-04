@@ -1,5 +1,3 @@
-# flowlogs
-
 # Flow Log Parser
 
 This project parses flow log data and maps each entry to a tag based on a lookup table. The output is a summary file showing the counts of matches for each tag and each port/protocol combination.

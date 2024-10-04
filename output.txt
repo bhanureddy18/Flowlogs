@@ -1,0 +1,24 @@
+Tag Counts:
+Tag,Count
+untagged,26
+
+Port/Protocol Combination Counts:
+Port,Protocol,Count
+443,udp,2
+23,udp,1
+25,udp,2
+110,udp,2
+993,udp,3
+143,udp,2
+1024,udp,1
+80,udp,2
+1030,udp,1
+56000,udp,1
+49321,udp,1
+49152,udp,1
+49153,udp,1
+49154,udp,1
+22,udp,2
+53,udp,1
+3389,udp,1
+445,udp,1

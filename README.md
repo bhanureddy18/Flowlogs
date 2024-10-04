@@ -21,6 +21,7 @@ This project parses flow log data and maps each entry to a tag based on a lookup
 1. Clone the repository:
    
    git clone https://github.com/your_username/Flow_Log_Parser.git
+   
    cd Flow_Log_Parser
    
 2. Run the Program: Execute the Python script:
@@ -42,13 +43,14 @@ This project parses flow log data and maps each entry to a tag based on a lookup
 The script has been tested with various sample logs, and it correctly outputs the number of matches per tag and port/protocol.
 
 5. Code Explanation
-The mapping.py script processes flow logs by:
+   
+   The mapping.py script processes flow logs by:
 
-Reading the lookup_table.csv to build a dictionary of mappings.
+   Reading the lookup_table.csv to build a dictionary of mappings.
 
-Parsing the flow_logs.txt file and mapping each entry to a tag based on the destination port and protocol.
+   Parsing the flow_logs.txt file and mapping each entry to a tag based on the destination port and protocol.
 
-Counting how many times each tag and port/protocol combination occurs.
+   Counting how many times each tag and port/protocol combination occurs.
 
 The results are then written to output.txt.
 
